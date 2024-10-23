@@ -25,7 +25,7 @@ El desafío consiste en trabajar con el dataset "20 newsgroups" y aplicar técni
 - El modelo Naïve Bayes Multinomial, ajustado con distintos parámetros, mostró un buen desempeño en la clasificación de textos, alcanzando un f1-score macro satisfactorio en el conjunto de prueba.
 - Al transponer la matriz de términos, se realizó un análisis de la similaridad entre palabras, lo que permitió identificar relaciones semánticas interesantes entre términos del corpus.
 
-Link: [Notebook del Desafío 1](../desafios/Desafio_1_Vectorizacion_de_texto.ipynb)
+Link: [Notebook del Desafío 1](../desafios/desafios/Desafio_1_Vectorizacion_de_texto.ipynb)
 
 ## Desafío 2: Custom Embeddings con Gensim
 <img src="imgs/desafio_2_embeddings.jpg" alt="Desafío de Embeddings con Gensim" width="300"/>
@@ -42,7 +42,7 @@ Los pasos clave incluyen:
 ### Resultados
 Se generaron embeddings para ambos libros. A través de la evaluación de términos clave, se pudo observar cómo las palabras relacionadas con la guerra en "El Arte de la Guerra" se agrupan de manera diferente que en "Las Aventuras de Sherlock Holmes", reflejando los distintos temas y estilos de cada autor.
 
-Link: [Notebook del Desafío 2](../desafios/Desafio_2_Custom_embeddings_Gensim.ipynb)
+Link: [Notebook del Desafío 2](../desafios/desafios/Desafio_2_Custom_embeddings_Gensim.ipynb)
 
 ## Desafío 3: Modelo con Tokenización por Caracteres y Palabras
 <img src="imgs/desafio_3_tokenizacion.jpg" alt="Desafío de tokenización por caracteres y palabras" width="400"/>
@@ -57,7 +57,7 @@ Este desafío está dividido en dos partes y busca construir modelos de lenguaje
 2. Se utiliza una arquitectura de red neuronal recurrente (LSTM) para aprender patrones del texto.
 3. Se generan secuencias de texto a partir de una secuencia inicial, ajustando los parámetros de búsqueda y temperatura para evaluar el comportamiento del modelo.
 
-Link: [Notebook del Desafío 3 - parte 1](../desafios/Desafio_3_modelo_lenguaje_char.ipynb)
+Link: [Notebook del Desafío 3 - parte 1](../desafios/desafios/Desafio_3_modelo_lenguaje_char.ipynb)
 
 **Parte 2: Tokenización por palabras**
 
@@ -65,7 +65,7 @@ Link: [Notebook del Desafío 3 - parte 1](../desafios/Desafio_3_modelo_lenguaje_
 2. El corpus se organiza en secuencias de entrenamiento y se estructuran los datos para realizar predicciones many-to-many, donde el modelo predice la palabra siguiente en una secuencia dada.
 3. Se utilizan LSTM y GRU para modelar el lenguaje, y se experimenta con estrategias de generación de texto, observando cómo afecta la calidad del texto generado.
 
-Link: [Notebook del Desafío 3 - parte 2](../desafios/Desafio_3_modelo_lenguaje_word.ipynb)
+Link: [Notebook del Desafío 3 - parte 2](../desafios/desafios/Desafio_3_modelo_lenguaje_word.ipynb)
 
 ## Desafío 4: Bot QA
 <img src="imgs/desafio_4_botqa.jpg" alt="Desafío de un Bot QA" width="300"/>
@@ -76,7 +76,7 @@ El objetivo de este desafío es construir un chatbot basado en LSTM que pueda re
 ### Resultados
 El modelo fue entrenado exitosamente, pero durante las pruebas de inferencia se observó que el chatbot tendía a generar respuestas repetitivas como "I am vegan" en distintos contextos. A pesar de ajustar algunos parámetros, el comportamiento no varió significativamente.
 
-Link: [Notebook del Desafío 4](../desafios/Desafio_4_bot_qa.ipynb)
+Link: [Notebook del Desafío 4](../desafios/desafios/Desafio_4_bot_qa.ipynb)
 
 ## Desafío 5: Bert - Análisis de Sentimientos Multicategórico
 <img src="imgs/desafio_5_bert.jpg" alt="Desafío de Análisis de Sentimientos" width="300"/>
@@ -93,7 +93,7 @@ Los pasos principales incluyen:
 2. Definir y entrenar un modelo de clasificación multicategorial basado en BERT.
 3. Afinar el modelo (fine-tuning) para mejorar el rendimiento de la clasificación.
 
-Link: [Notebook del Desafío 5](../desafios/Desafio_5_bert_sentiment_analysis_multicategorial.ipynb)
+Link: [Notebook del Desafío 5](../desafios/desafios/Desafio_5_bert_sentiment_analysis_multicategorial.ipynb)
 
 ## Desafío 6: Presentación en Github de los desafíos.
 Este desafío final se trata de presentar los desafíos de código realizados para la materia. Es decir, el resultado de este desafío es la rama "Desafios" de este repositorio.
