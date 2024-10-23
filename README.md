@@ -11,7 +11,7 @@ A continuación se presentan los desafíos de código realizados para la materia
 
 
 ## Desafío 1: Vectorización de Texto
-![Desafio de Vectorización de textos](imgs/desafio_1_vector.jpg)
+<img src="imgs/desafio_1_vector.jpg" alt="Desafio de Vectorización de textos" width="300" author="O Reilly.com"/>
 
 ### Resumen de la Consigna
 El desafío consiste en trabajar con el dataset "20 newsgroups" y aplicar técnicas de vectorización de texto (como el conteo de palabras y TF-IDF) para crear modelos de clasificación basados en Naïve Bayes. Los principales objetivos son:
@@ -27,7 +27,7 @@ El desafío consiste en trabajar con el dataset "20 newsgroups" y aplicar técni
 
 
 ## Desafío 2: Custom Embeddings con Gensim
-![Desafío de Embeddings con Gensim](imgs/desafio_2_embeddings.jpg)
+<img src="imgs/desafio_2_embeddings.jpg" alt="Desafío de Embeddings con Gensim" width="300"/>
 
 ### Resumen de la Consigna
 En este desafío, se busca crear vectores de palabras personalizados (embeddings) utilizando la librería Gensim. El objetivo es generar embeddings basados en dos corpus literarios: "Las Aventuras de Sherlock Holmes" de Arthur Conan Doyle y "El Arte de la Guerra" de Sun Tzu. Se busca comparar cómo las palabras se representan en el espacio de embeddings según el uso particular de los autores.
@@ -43,7 +43,7 @@ Se generaron embeddings para ambos libros. A través de la evaluación de térmi
 
 
 ## Desafío 3: Modelo con Tokenización por Caracteres y Palabras
-![Desafío de tokenización por caracteres y palabras](imgs/desafio_3_tokenizacion.jpg)
+<img src="imgs/desafio_3_tokenizacion.jpg" alt="Desafío de tokenización por caracteres y palabras" width="400"/>
 
 ### Resumen de la Consigna
 Este desafío está dividido en dos partes y busca construir modelos de lenguaje utilizando dos enfoques de tokenización: a nivel de caracteres y a nivel de palabras. En ambos casos, se trabaja con el corpus de "Viaje al Centro de la Tierra" de Julio Verne. El objetivo es entrenar modelos de redes neuronales recurrentes (RNN, LSTM, GRU) para predecir secuencias de texto, y generar nuevas secuencias mediante estrategias de búsqueda (greedy search, beam search).
@@ -63,7 +63,7 @@ Este desafío está dividido en dos partes y busca construir modelos de lenguaje
 
 
 ## Desafío 4: Bot QA
-![Desafío de un Bot QA](imgs/desafio_4_botqa.jpg)
+<img src="imgs/desafio_4_botqa.jpg" alt="Desafío de un Bot QA" width="300"/>
 
 ### Resumen de la Consigna
 El objetivo de este desafío es construir un chatbot basado en LSTM que pueda responder preguntas (QA) utilizando datos del desafío ConvAI2 (Conversational Intelligence Challenge 2). El enfoque se centra en desarrollar un modelo de tipo encoder-decoder para comprender y generar respuestas.
@@ -73,8 +73,7 @@ El modelo fue entrenado exitosamente, pero durante las pruebas de inferencia se 
 
 
 ## Desafío 5: Bert - Análisis de Sentimientos Multicategórico
-![Desafío de Análisis de Sentimientos](imgs/desafio_5_bert.jpg)
-
+<img src="imgs/desafio_5_bert.jpg" alt="Desafío de Análisis de Sentimientos" width="300"/>
 
 ### Resumen de la Consigna
 El objetivo de este desafío es realizar un análisis de sentimientos multicategorial utilizando el modelo preentrenado BERT (Bidirectional Encoder Representations from Transformers). Se emplea un conjunto de datos con reseñas de aplicaciones de Google Apps para entrenar un modelo que clasifique las reseñas en varias categorías de sentimiento.
